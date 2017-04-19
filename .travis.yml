@@ -6,5 +6,8 @@ php:
 install:
   - composer install
 
+services:
+  - redis-server
+
 script:
   - php vendor/bin/phpunit
