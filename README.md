@@ -1,6 +1,11 @@
 ### 设计模式 (PHP)
+[![Build Status](https://travis-ci.org/fyibmsd/php-patterns.svg?branch=master)](https://travis-ci.org/fyibmsd/php-patterns)
 
 #### 创建型设计模式 (Creational)
+
+- 简单工厂模式
+
+- 工厂方法模式
 
 - 抽象工厂模式
 
