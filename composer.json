@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phpunit/phpunit": "^6.1",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src/"
+        }
+    }
+}

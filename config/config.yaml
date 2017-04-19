@@ -1,0 +1,13 @@
+---
+redis:
+  host: 127.0.0.1
+  port: 6379
+sqlite:
+  path: tmp/sqlite.db
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  dbname: book
+  user: root
+  password: fyibmsd
+...
