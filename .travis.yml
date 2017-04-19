@@ -4,6 +4,8 @@ php:
   - 7.1
 
 install:
+  - pecl install redis
+  - echo "extension=redis.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
   - composer install
 
 services:
