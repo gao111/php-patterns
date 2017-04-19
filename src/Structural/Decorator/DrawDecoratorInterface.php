@@ -2,7 +2,7 @@
 /**
  * @name 装饰器模式
 */
-namespace DesignPatterns\Creational\Decorator;
+namespace DesignPatterns\Structural\Decorator;
 
 
 interface DrawDecoratorInterface

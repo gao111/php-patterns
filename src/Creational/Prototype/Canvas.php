@@ -5,7 +5,7 @@
 
 namespace DesignPatterns\Creational\Prototype;
 
-use DesignPatterns\Creational\Decorator\DrawDecoratorInterface;
+use DesignPatterns\Structural\Decorator\DrawDecoratorInterface;
 
 class Canvas
 {

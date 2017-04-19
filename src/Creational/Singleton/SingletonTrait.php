@@ -9,7 +9,7 @@ namespace DesignPatterns\Creational\Singleton;
 trait SingletonTrait
 {
     /** @var $instance static */
-    protected static $instance = null;
+    protected static $instance = [];
 
     private function __construct()
     {
@@ -17,10 +17,10 @@ trait SingletonTrait
 
     final public static function getInstance()
     {
-        if (self::$instance === null)
-            self::$instance = new static;
+        if (!isset(static::$instance[static::class]))
+            static::$instance[static::class] = new static();
 
-        return self::$instance;
+        return static::$instance[static::class];
     }
 
     final private function __clone()

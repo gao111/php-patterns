@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * @name 策略模式
+*/
 namespace DesignPatterns\Behavioral\Strategy;
 
 

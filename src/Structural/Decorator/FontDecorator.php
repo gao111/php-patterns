@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Creational\Decorator;
+namespace DesignPatterns\Structural\Decorator;
 
 
 class FontDecorator implements DrawDecoratorInterface
