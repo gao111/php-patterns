@@ -2,6 +2,8 @@
 
 namespace DesignPatterns\Creational\AbstractFactory;
 
+use DesignPatterns\Structural\Adapter\CacheInterface;
+
 abstract class AbstractFactory
 {
     /**

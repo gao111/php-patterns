@@ -2,7 +2,8 @@
 
 namespace DesignPatterns\Creational\AbstractFactory;
 
-use DesignPatterns\Creational\AbstractFactory\Cache\RedisCache;
+use DesignPatterns\Structural\Adapter\CacheInterface;
+use DesignPatterns\Structural\Adapter\Cache\RedisCache;
 
 class RedisFactory extends AbstractFactory
 {

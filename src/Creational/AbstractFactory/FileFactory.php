@@ -2,7 +2,8 @@
 
 namespace DesignPatterns\Creational\AbstractFactory;
 
-use DesignPatterns\Creational\AbstractFactory\Cache\FileCache;
+use DesignPatterns\Structural\Adapter\CacheInterface;
+use DesignPatterns\Structural\Adapter\Cache\FileCache;
 
 class FileFactory extends AbstractFactory
 {

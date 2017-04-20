@@ -1,6 +1,9 @@
 <?php
+/**
+ * @name 适配器模式
+ */
 
-namespace DesignPatterns\Creational\AbstractFactory;
+namespace DesignPatterns\Structural\Adapter;
 
 interface CacheInterface
 {

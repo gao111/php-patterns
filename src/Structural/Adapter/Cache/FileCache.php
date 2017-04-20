@@ -1,14 +1,15 @@
 <?php
 
-namespace DesignPatterns\Creational\AbstractFactory\Cache;
+namespace DesignPatterns\Structural\Adapter\Cache;
 
-use DesignPatterns\Creational\AbstractFactory\CacheInterface;
+
+use DesignPatterns\Structural\Adapter\CacheInterface;
 
 class FileCache implements CacheInterface
 {
     protected static $path;
 
-    public function __construct(array $opts)
+    public function __construct(array $opts = [])
     {
         self::$path = $opts['path'] ?? '/tmp';
         $mode       = $opts['mode'] ?? 0777;

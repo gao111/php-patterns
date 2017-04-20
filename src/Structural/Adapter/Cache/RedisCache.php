@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\Creational\AbstractFactory\Cache;
+namespace DesignPatterns\Structural\Adapter\Cache;
 
-use DesignPatterns\Creational\AbstractFactory\CacheInterface;
+use DesignPatterns\Structural\Adapter\CacheInterface;
 use Redis;
 
 class RedisCache implements CacheInterface
@@ -10,7 +10,7 @@ class RedisCache implements CacheInterface
     /** @var $handler Redis */
     protected static $handler;
 
-    public function __construct(array $opts)
+    public function __construct(array $opts = [])
     {
         $host = $opts['host'] ?? '127.0.0.1';
         $port = $opts['port'] ?? 6379;
